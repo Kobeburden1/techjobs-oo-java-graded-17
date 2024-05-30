@@ -4,14 +4,7 @@ import java.util.Objects;
 
 public class CoreCompetency extends JobField {
 
-//    private int id;
-//    private static int nextId = 1;
-//    private String value;
-//
-//    public CoreCompetency() {
-//        this.id = nextId;
-//        nextId++;
-//    }
+
 
     public CoreCompetency(String value) {
         super(value);
@@ -35,23 +28,10 @@ public class CoreCompetency extends JobField {
     @Override
     public int hashCode() {
         return Objects.hash(getId());
-    }
+    }}
 
     // TODO: Use the "Generate" tool to add a getter and setter for the 'value' field but
     //  ONLY a getter for the 'id' field.
 
 
-//    public String getValue() {
-//        return value;
-//    }
-//
-//    public void setValue(String value) {
-//        this.value = value;
-//    }
-//
-//    public int getId() {
-//        return id;
-//    }
-}
-// Task is done, required getter and setter for value,
-// request is getter only for id Step @ passes 3 test don't change //
+

@@ -18,9 +18,9 @@ public class JobTest {
     public void testSettingJobId() {
         Job job1 = new Job();
         Job job2 = new Job();
-        // Instantiate two job objects //
+
         assertNotEquals(job1.getId(), job2.getId());
-        // compare if equality of job1 and job2 //
+
     }
     // Test 1 passes Test 4 Test, wow that's weird to say lol //
     @Test
@@ -28,7 +28,7 @@ public class JobTest {
 
         Job job = new Job("Product tester", new Employer("ACME"), new Location("Desert"),
                 new PositionType("Quality control"), new CoreCompetency("Persistence"));
-        // instantiate the object with the provided field parameters //
+
 
         assertEquals("Product tester", job.getName().toString());
 
@@ -54,8 +54,7 @@ public class JobTest {
 
         assertFalse("Jobs with different IDs should not be equal",job1.equals(job));
     }
-    // Passed all four Junit test for part 4 //
-    // Part 5 starts here //
+
     @Test
     public void testToStringStartsAndEndsWithNewLine(){
         Job job = new Job();
@@ -74,7 +73,7 @@ public class JobTest {
                 "Core Competency: " + job.getCoreCompetency() + System.lineSeparator() +
                 System.lineSeparator();
 
-    } // Method Passes do not change, this is the one Mark was talking about! //
+    }
 
 
     @Test
@@ -94,7 +93,7 @@ public class JobTest {
 
         String actual = job.toString();
 
-        // Assert that the actual result matches the expected format
+
         assertEquals(expected, actual);
 
 

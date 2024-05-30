@@ -16,11 +16,7 @@ public class Job extends JobField{
     // TODO: Add two constructors - one to initialize a unique ID and a second to initialize the
     //  other five fields. The second constructor should also call the first in order to initialize
     //  the 'id' field.
-// We use this constructor to create a unique ID //
-//    public Job() {
-//        id = nextId;
-//        nextId++;
-//    }
+
     public Job(){
         super("");
         this.id = nextId++;

@@ -42,18 +42,5 @@ public class PositionType extends JobField {
     }
 
 
-    // Getters and Setters:
-//
-//    public int getId() {
-//        return id;
-//    }
-//
-//    public String getValue() {
-//        return value;
-//    }
-//
-//    public void setValue(String value) {
-//        this.value = value;
-//    }
 
 }

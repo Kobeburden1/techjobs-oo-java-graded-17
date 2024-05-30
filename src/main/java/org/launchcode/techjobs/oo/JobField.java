@@ -5,7 +5,7 @@ public abstract class JobField {
     private static int nextId = 1;
     private String value;
 
-    // Single constructor
+
     public JobField(String value) {
         this.id = nextId;
         nextId++;
